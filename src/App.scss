@@ -148,6 +148,12 @@ a, a:visited {
     left: 25%;
     height: 5%;
   }
+
+  &__static {
+    display: none;
+    visibility: hidden;
+  }
+  
 }
 
 
@@ -898,3 +904,40 @@ section {
 }
 }
 
+@media (pointer:none), (pointer:coarse), (max-resolution: 1dppx) {
+
+  .avatar {
+    &__head {
+      display: none;
+      visibility: hidden;
+    }
+
+    &__eyes {
+      display: none;
+      visibility: hidden;
+    }
+
+    &__eyebrows {
+      display: none;
+      visibility: hidden;
+    }
+
+    &__mouth {
+      display: none;
+      visibility: hidden;
+    }
+
+    &__nose {
+      display: none;
+      visibility: hidden;
+    }
+
+    &__static {
+      right: 10px;
+      top: -10px;
+      display: block;
+      visibility: visible;
+    }
+    
+  }
+}
