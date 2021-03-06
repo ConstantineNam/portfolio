@@ -1,4 +1,5 @@
 import React, { useEffect, useState }  from 'react';
+import avatar  from '../assets/images/avatar.svg';
 import avatarHead  from '../assets/images/avatar-head.svg';
 import avatarEyes from '../assets/images/avatar-eyes.svg';
 import avatarEyebrows  from '../assets/images/avatar-eyebrows.svg';
@@ -38,6 +39,7 @@ const Avatar = (props) => {
             <svg viewBox='0 0 350 350'>
                 <circle className='avatar__background'cx='175' cy='175' r='175'/>
             </svg>
+            <img src={avatar} className='avatar__static'/>
             <animated.img src={avatarHead} className='avatar__head' style={{ transform: props.animProps.xy.interpolate(trans1) }} />
             <animated.img 
                 src={avatarEyes} className='avatar__eyes' 
@@ -47,7 +49,6 @@ const Avatar = (props) => {
             <animated.svg className='avatar__mouth' style={{transform: props.animProps.xy.interpolate(trans5), background: 'new 0 0 273.4 293.4'}} >
                 <animated.path style={{fill: '#F87A6F'}} d={x} />
             </animated.svg>
-           
         </div>
   )
 }
