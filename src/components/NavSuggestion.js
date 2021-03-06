@@ -15,7 +15,7 @@ const NavSuggestion = (props) => {
     }
 
     useEffect(()=> {
-        if(!props ) {
+        if(!props.prev ) {
             setScrollToTopLink(true)
         }
         if(props.prev === 'work') {
