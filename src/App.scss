@@ -904,7 +904,7 @@ section {
 }
 }
 
-@media (pointer:none), (pointer:coarse), (max-resolution: 1dppx) {
+@media (pointer:none), (pointer:coarse) {
 
   .avatar {
     &__head {
