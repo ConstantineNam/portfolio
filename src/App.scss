@@ -237,10 +237,10 @@ button, input {
     background-color: rgba(25,25,25, .75);
 
     .success {
-      background-color: #284445;
+      background-color: var(--shade-1);
     }
     .error {
-      background-color: #3C2D42;
+      background-color:  var(--shade-1);
     }
   }
 
