@@ -378,8 +378,8 @@ header {
 
 nav {
   @include center-flex;
-  gap: 40px;
-  -webkit-gap: 40px;
+  column-gap: 40px;
+
 }
 
 .nav-link {
