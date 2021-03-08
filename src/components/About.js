@@ -59,7 +59,7 @@ const About = () => {
                     <h5>Since the time I've deployed my first <b>Hello World</b>, 
                         I got forever hooked on coding. 
                         <br/><br/>
-                        From there my life path has been accompanied by a couple of bootcamps, 
+                        From there my life path has been accompanied by several bootcamps, 
                         countless YouTube tutorials, documentations, and Stack Overflow browsings. 
                         <br/><br/>
                         Being an openminded and adaptable person, every project (either solo or collaborative) 
@@ -96,9 +96,8 @@ const About = () => {
                         <span>
                             <div className='svg-wrapper'>
                                 {themeRef ? <ResponsiveDark/> : <ResponsiveLight/> }
-                                <div className='svg-fade'></div>
                             </div>
-                            <h3>responsive </h3>
+                            <h3>responsive</h3>
                             <h5>making apps look and function great on any screen size</h5>
                         </span>
                     </div>
@@ -107,7 +106,6 @@ const About = () => {
                         <span>
                             <div className='svg-wrapper'>
                                 {themeRef ? <FastDark /> : <FastLight/> }
-                                <div className='svg-fade'></div>
                             </div>
                             <h3>fast</h3>
                             <h5>aiming for the shortest loading times</h5>
@@ -118,7 +116,6 @@ const About = () => {
                         <span>
                             <div className='svg-wrapper'>
                                 {themeRef ? <AccessibleDark/> : <AccessibleLight/>}
-                                <div className='svg-fade'></div>
                             </div>
                             <h3>accessible</h3>
                             <h5>designing apps to deliver same experience for every visitor</h5>
@@ -129,10 +126,9 @@ const About = () => {
                         <span>
                             <div className='svg-wrapper'>
                                 {themeRef ? <AestheticDark/> : <AestheticLight/> }
-                                <div className='svg-fade'></div>
                             </div>
                             <h3>aesthetic</h3>
-                            <h5>studying UI/UX desgin to catch the eye yet remain intuitive</h5>
+                            <h5>improving UI/UX design to catch the eye yet remain intuitive</h5>
                         </span>
                     </div>
                 </div>
