@@ -42,7 +42,7 @@ const projectsData = [
         codeLink: 'https://github.com/ConstantineNam/tetris'
     },
 
-    {   title: 'lorem ipsum artistry', 
+    {   title: 'makeup artistry', 
         description: "Freelance project for a local business. Designed and delivered as a single page as per the client's request. Built with standard HTML, CSS, Node, Express JQuery stack. Includes a contact form that can be connected to FormSpree or a similar form submission service.", 
         stack: [    {name: 'html', icon: <HtmlIcon/>}, 
                     {name: 'css', icon: <CssIcon/>},
@@ -52,8 +52,8 @@ const projectsData = [
                     {name: 'github pages', icon: null}
                 ], 
         img: artistryImg, 
-        demoLink: 'https://constantinenam.github.io/Lorem-Ipsum-Artistry/', 
-        codeLink: 'https://github.com/ConstantineNam/Lorem-Ipsum-Artistry'
+        demoLink: 'https://constantinenam.github.io/makeup-artistry/', 
+        codeLink: 'https://github.com/ConstantineNam/makeup-artistry'
     },
 
     {   title: 'shortcutt', 
