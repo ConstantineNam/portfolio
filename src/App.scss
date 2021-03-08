@@ -593,30 +593,22 @@ nav {
   &__feature {
     position: relative;
     width: 100%;
-    height: 0;
     padding-top: 100%;
-
+    * {
+      margin: auto
+    }
     span {
-      @include center-flex;
-      flex-direction: column;
       position: absolute;
       height: 100%;
       width: 100%;
-      top: 0;
+      top: 0; left: 0;
       box-sizing: border-box; 
       text-align: center;
-    }
-
-    .svg-wrapper {
-      width: 100%;
-      height: 40%;
-      position: relative;
-      z-index: 0;
-    }
-    
+    } 
     svg {    
       width: 100%;
-      height: 100%;
+      height: 50%;
+      max-height: 150px;
     }
 
     h3 {
@@ -869,7 +861,6 @@ section {
 
 .about-skills {
 
-
   &__features {
     grid-row-gap: 60px;
   }
@@ -912,6 +903,14 @@ section {
 }
 }
 
+@media only screen and (max-width: 350px) {
+  .about-skills {
+    &__feature {
+      padding-top: 200%;
+    }
+  }
+}
+
 @media (pointer:none), (pointer:coarse) {
 
   .avatar {
@@ -949,3 +948,4 @@ section {
     
   }
 }
+
