@@ -94,9 +94,7 @@ const About = () => {
 
                     <div className='about-skills__feature'>
                         <span>
-                            <div className='svg-wrapper'>
-                                {themeRef ? <ResponsiveDark/> : <ResponsiveLight/> }
-                            </div>
+                            {themeRef ? <ResponsiveDark/> : <ResponsiveLight/> }
                             <h3>responsive</h3>
                             <h5>making apps look and function great on any screen size</h5>
                         </span>
@@ -104,9 +102,7 @@ const About = () => {
 
                     <div className='about-skills__feature'>
                         <span>
-                            <div className='svg-wrapper'>
-                                {themeRef ? <FastDark /> : <FastLight/> }
-                            </div>
+                            {themeRef ? <FastDark /> : <FastLight/> }
                             <h3>fast</h3>
                             <h5>aiming for the shortest loading times</h5>
                         </span>
@@ -114,9 +110,7 @@ const About = () => {
 
                     <div className='about-skills__feature'>
                         <span>
-                            <div className='svg-wrapper'>
-                                {themeRef ? <AccessibleDark/> : <AccessibleLight/>}
-                            </div>
+                            {themeRef ? <AccessibleDark/> : <AccessibleLight/>}
                             <h3>accessible</h3>
                             <h5>designing apps to deliver same experience for every visitor</h5>
                         </span>
@@ -124,9 +118,7 @@ const About = () => {
                   
                     <div className='about-skills__feature'>
                         <span>
-                            <div className='svg-wrapper'>
-                                {themeRef ? <AestheticDark/> : <AestheticLight/> }
-                            </div>
+                            {themeRef ? <AestheticDark/> : <AestheticLight/> }
                             <h3>aesthetic</h3>
                             <h5>improving UI/UX design to catch the eye yet remain intuitive</h5>
                         </span>
