@@ -77,6 +77,7 @@ const About = () => {
                         <h5>Straight to the dry facts?</h5>
                         <a download
                            className='btn-outline' 
+                           download='constantine-nam-resume.pdf'
                            href={resume}>
                            download my cv
                         </a>
