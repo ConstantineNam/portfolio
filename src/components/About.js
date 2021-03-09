@@ -1,28 +1,28 @@
 import React, { useState, useEffect} from 'react';
 import NavSuggestion from './NavSuggestion.js'
-// import resume from '../doc/resume.pdf'; resume is currently in maintenance
-import photo from '../assets/images/photo.jpg';
-import { ReactComponent as AestheticDark } from '../assets/icons/aesthetic-dark.svg';
-import { ReactComponent as AccessibleDark } from '../assets/icons/accessible-dark.svg';
-import { ReactComponent as FastDark } from '../assets/icons/fast-dark.svg';
-import { ReactComponent as ResponsiveDark } from '../assets/icons/responsive-dark.svg';
-import { ReactComponent as AestheticLight } from '../assets/icons/aesthetic-light.svg';
-import { ReactComponent as AccessibleLight } from '../assets/icons/accessible-light.svg';
-import { ReactComponent as FastLight } from '../assets/icons/fast-light.svg';
-import { ReactComponent as ResponsiveLight } from '../assets/icons/responsive-light.svg';
-import { ReactComponent as ReactIcon } from '../assets/icons/react.svg';
-import { ReactComponent as FirebaseIcon } from '../assets/icons/firebase.svg';
-import { ReactComponent as NodeIcon } from '../assets/icons/nodejs.svg';
-import { ReactComponent as CssIcon } from '../assets/icons/css.svg';
-import { ReactComponent as HtmlIcon } from '../assets/icons/html.svg';
-import { ReactComponent as BootstrapIcon } from '../assets/icons/bootstrap.svg';
-import { ReactComponent as FlutterIcon } from '../assets/icons/flutter.svg';
-import { ReactComponent as GitIcon } from '../assets/icons/git.svg';
-import { ReactComponent as MongoIcon } from '../assets/icons/mongodb.svg';
-import { ReactComponent as HerokuIcon } from '../assets/icons/heroku.svg';
-import { ReactComponent as JQueryIcon } from '../assets/icons/jquery.svg';
-import { ReactComponent as JsIcon } from '../assets/icons/js.svg';
-import { ReactComponent as SassIcon } from '../assets/icons/sass.svg';
+import resume from '../doc/resume.pdf'
+import photo from '../assets/images/photo.jpg'
+import { ReactComponent as AestheticDark } from '../assets/icons/aesthetic-dark.svg'
+import { ReactComponent as AccessibleDark } from '../assets/icons/accessible-dark.svg'
+import { ReactComponent as FastDark } from '../assets/icons/fast-dark.svg'
+import { ReactComponent as ResponsiveDark } from '../assets/icons/responsive-dark.svg'
+import { ReactComponent as AestheticLight } from '../assets/icons/aesthetic-light.svg'
+import { ReactComponent as AccessibleLight } from '../assets/icons/accessible-light.svg'
+import { ReactComponent as FastLight } from '../assets/icons/fast-light.svg'
+import { ReactComponent as ResponsiveLight } from '../assets/icons/responsive-light.svg'
+import { ReactComponent as ReactIcon } from '../assets/icons/react.svg'
+import { ReactComponent as FirebaseIcon } from '../assets/icons/firebase.svg'
+import { ReactComponent as NodeIcon } from '../assets/icons/nodejs.svg'
+import { ReactComponent as CssIcon } from '../assets/icons/css.svg'
+import { ReactComponent as HtmlIcon } from '../assets/icons/html.svg'
+import { ReactComponent as BootstrapIcon } from '../assets/icons/bootstrap.svg'
+import { ReactComponent as FlutterIcon } from '../assets/icons/flutter.svg'
+import { ReactComponent as GitIcon } from '../assets/icons/git.svg'
+import { ReactComponent as MongoIcon } from '../assets/icons/mongodb.svg'
+import { ReactComponent as HerokuIcon } from '../assets/icons/heroku.svg'
+import { ReactComponent as JQueryIcon } from '../assets/icons/jquery.svg'
+import { ReactComponent as JsIcon } from '../assets/icons/js.svg'
+import { ReactComponent as SassIcon } from '../assets/icons/sass.svg'
 import { ReactComponent as NetlifyIcon } from '../assets/icons/netlify.svg'
 
 const About = () => {
@@ -73,16 +73,14 @@ const About = () => {
                         tea, and teaching my cat to fetch (surprisingly it works).
                     </h5>
 
-                    {/* ------resume is currently in maintenance------ */}
-
-                    {/* <div className='about-hero__download-cv'>
+                    <div className='about-hero__download-cv'>
                         <h5>Straight to the dry facts?</h5>
                         <a download
                            className='btn-outline' 
-                           href={resume} >
+                           href={resume}>
                            download my cv
                         </a>
-                    </div> */}
+                    </div> 
 
                 </div>
 
