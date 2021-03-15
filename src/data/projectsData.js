@@ -3,7 +3,6 @@ import paprikaImg from '../assets/images/paprika.JPG'
 import tetrisImg from '../assets/images/tetris.JPG'
 import artistryImg from '../assets/images/artistry.JPG'
 import shortcuttImg from '../assets/images/shortcutt.JPG'
-import pledgerImage from '../assets/images/pledger.JPG'
 import portfolioImg from '../assets/images/portfolio.JPG'
 import { ReactComponent as ReactIcon } from '../assets/icons/react.svg'
 import { ReactComponent as FirebaseIcon } from '../assets/icons/firebase.svg'
@@ -66,17 +65,6 @@ const projectsData = [
         img: shortcuttImg, 
         demoLink: null, 
         codeLink: 'https://github.com/ConstantineNam/shortcutt'
-    },
-
-    {   title: 'pledger', 
-        description: "Productivity web app for keeping track of your goals and deadlines. Allows users to publicly set their goals with deadlines in a form of a countdown widget, share it in social media, support each other's posts, and see statistics of your performance", 
-        stack: [    {name: 'react', icon: <ReactIcon/>}, 
-                    {name: 'firebase', icon: <FirebaseIcon/>}, 
-                    {name: 'github pages', icon: null}
-                ],
-        img: pledgerImage, 
-        demoLink: null,
-        codeLink: 'https://github.com/ConstantineNam/Lorem-Ipsum-Artistry'
     },
 
     {   title: 'portfolio', 
