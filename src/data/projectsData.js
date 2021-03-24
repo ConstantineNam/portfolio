@@ -19,7 +19,7 @@ import { ReactComponent as MongoIcon } from '../assets/icons/mongodb.svg'
 const projectsData = [
 
     {   title: 'paprika', 
-        description: 'Recipe book web app, built with React and Firebase. Features adding/editing/deleting recipes, Google login, search by keywords, like button, and nutrition analysis using Edamam API. Framed with custom Material-style design', 
+        description: 'Recipe web app built with React framework and Firebase database. Includes CRUD operations, live updates for ‘likes’, rating, reviews, Google login, search by keywords (with no extra libraries used), custom hooks, and full nutritional analysis (using Edamam API). Design inspired by Material-Ui framework', 
         stack: [    {name: 'react', icon: <ReactIcon/>}, 
                     {name: 'firebase', icon: <FirebaseIcon/>}, 
                     {name: 'sass', icon: <SassIcon/>},
@@ -32,7 +32,7 @@ const projectsData = [
     },
 
     {   title: 'tetris', 
-        description: 'Pure JavaScript Tetris clone, conveniently packed in a single file. Can be played using a keyboard or on-screen mouse click or touch control. Locally saves your highscore across the sessions. Styled as a handheld console, and includes optional extra styling at the end of the file that can be removed without affecting gameplay.', 
+        description: 'Built with pure JavaScript code (no libraries), conveniently packed in a single file. Game board constructed with a two-dimensional array and used as coordinates to position DOM elements onto HTML. Enables keyboard, on-screen touch, and mouse click controls. Locally saves high-score across the sessions. Styled as a handheld console, and includes optional extra styling at the end of the file that can be removed without affecting gameplay.', 
         stack: [    {name: 'javascript', icon: <JsIcon/>}, 
                     {name: 'github pages', icon: null}
                 ], 
